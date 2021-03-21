@@ -1,6 +1,6 @@
 # Click the [link](https://kos-tomasz.github.io/notepad/) to use my editor.
 
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](../assets/img/editor.png)
 
 # WTF Webpack Starter Kit 
 
