@@ -20,11 +20,11 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--background-color);
-  color:var(--text-color);
+  color: var(--text-color);
 }
 
-.background-image{
-  width:30%;
+.background-image {
+  width: 30%;
 }
 
 .main {
@@ -65,20 +65,20 @@ body {
   }
 }
 
-.footer{
-  display: flex;;
+.footer {
+  display: flex;
   justify-content: flex-end;
   align-items: flex-start;
   height: 10vh;
   width: 80%;
-  &__buttons{
+  &__buttons {
     width: 20%;
     display: flex;
     justify-content: space-between;
   }
 }
 
-.button{
+.button {
   margin-top: 12px;
   border: none;
   border-radius: 4px;
