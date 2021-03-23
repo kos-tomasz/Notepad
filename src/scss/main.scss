@@ -10,7 +10,7 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 body {
@@ -25,6 +25,9 @@ body {
 
 .background-image {
   width: 30%;
+  @media screen and (max-width: 600px) {
+    width: 0%;
+  }
 }
 
 .main {
@@ -32,6 +35,10 @@ body {
   height: 60vh;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 600px) {
+    width: 80vw;
+    height: 70vh;
+  }
 }
 
 .header {
@@ -44,6 +51,9 @@ body {
     font-weight: 600;
     line-height: 64px;
     font-style: normal;
+    @media screen and (max-width: 600px) {
+      font-size: 34px;
+    }
   }
   &__isDark {
     display: flex;
@@ -62,6 +72,10 @@ body {
   &__text {
     min-width: 70%;
     height: 40vh;
+    @media screen and (max-width: 600px) {
+      height: 50vh;
+      min-width: 80%;
+    }
   }
 }
 
@@ -83,4 +97,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 2px 8px;
+  &--save{
+    margin-left: 16px;
+  }
 }
